@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+  }  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: skyblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+body {
+  background-image: url("../img/sonicfons.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  .div {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(180deg, grey, darkgrey);    
+    color: black;
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+    padding: 20px;
+    
+  }
+  table td{
+    border: 2px solid black
+}
+  h1 {
+      text-shadow: 1px;
+  }
+  h2 {
+    font-size: xx-large;
+  }
+  img {
+    display: flex;
+    height: 35vh;
+    width: 25vw;
+    margin-left: 10vw;
+    flex-wrap: wrap;
+    position: relative;
+ }
+  th {
+     font-size: x-large;
+     font-weight: bold;
+ }
+   h1 {
+       text-shadow: 2px;
+   }
+   li {
+     list-style: square;
+   }
+   .black {
+     color: black;
+   }
+   form {
+     background-color: slategray;
+     color: black;
+     margin-right: 70%;
+     border: dotted;
+   }
+  p {
+    color: black;
+  }
+iframe {
+  width: 560px;
+  height: 315px;
+  margin-left: 15%;
+}
